@@ -1,0 +1,154 @@
+@media (max-width: 1200px) {
+}
+@media (max-width: 1000px) {
+}
+@media (min-width: 801px) and (max-width: 1030px) {
+  header {
+    display: block;
+    text-align: center;
+  }
+  .navigation {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 20px;
+  }
+}
+@media (min-width: 601px) and (max-width: 800px) {
+  ul.footer-ul {
+    flex: 1 0;
+  }
+}
+@media (max-width: 800px) {
+  .menu-icon {
+    display: inline-block;
+    position: fixed;
+    z-index: 5;
+    top: 5%;
+    right: 5%;
+  }
+  .navigation {
+    display: none;
+  }
+  .navigation.active {
+    flex-direction: column;
+    gap: 10px;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: -20px;
+    right: 0;
+    background-color: #94ffdb;
+    padding: 20px;
+    z-index: 3;
+  }
+  a.calm-free3 {
+    flex: 40%;
+  }
+  .active li:not(:last-child) {
+    border-bottom: 2px solid #3d3d3d;
+    width: 100%;
+    text-align: center;
+  }
+  h1 {
+    font-size: 1.86875rem;
+  }
+  .banner {
+    height: 300px;
+  }
+
+  .first {
+    padding: 0 10px;
+  }
+
+  .second {
+    padding: 0px;
+  }
+  .second-h2 {
+    font-size: 1.8rem;
+  }
+  .second-ul {
+    display: unset;
+  }
+  li.second-li {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    padding: 10px;
+  }
+
+  a.second-link {
+    text-align: center;
+  }
+
+  .third {
+    padding: 0px 26px 10px;
+  }
+  .third-h2 {
+    font-size: 1.8rem;
+    margin: 40px 0;
+  }
+  h2.fourth-h {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  .fifth-sec {
+    padding: 30px;
+  }
+  .fifth-h2 {
+    font-size: 1.8rem;
+  }
+  .main-footer {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  ul.footer-icon {
+    flex: 0 0 100%;
+    justify-content: center;
+    padding: 0;
+  }
+}
+@media (max-width: 600px) {
+  a.calm-free3 {
+    flex: 50%;
+  }
+  button.btn {
+    width: 100%;
+  }
+  h1 {
+    font-size: 1.3rem;
+    margin: 0;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .third {
+    padding: 0;
+  }
+  .third-ul {
+    padding: 0 20px;
+    column-gap: 20px;
+  }
+  h2.fourth-h {
+    line-height: normal;
+    font-size: 1.25rem;
+  }
+  .fourth-ul {
+    flex-direction: column;
+    width: 100%;
+  }
+  .fourth-li {
+    width: 100%;
+  }
+  .main-footer {
+    text-align: center;
+  }
+  .footer-ul {
+    padding: 0 !important;
+    flex: 0 0 100%;
+  }
+}
+@media (max-width: 400px) {
+  .banner {
+    height: 180px;
+  }
+}
